@@ -39,6 +39,7 @@ REVISION_XML = TEST_ASSET_DIR / "workbook_revision.xml"
 UPDATE_XML = TEST_ASSET_DIR / "workbook_update.xml"
 UPDATE_PERMISSIONS = TEST_ASSET_DIR / "workbook_update_permissions.xml"
 UPDATE_CONNECTIONS_XML = TEST_ASSET_DIR / "workbook_update_connections.xml"
+UPDATE_CONNECTIONS_NO_AUTH_XML = TEST_ASSET_DIR / "workbook_update_connections_no_auth.xml"
 
 
 @pytest.fixture(scope="function")

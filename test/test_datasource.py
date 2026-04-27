@@ -35,6 +35,7 @@ UPDATE_XML = TEST_ASSET_DIR / "datasource_update.xml"
 UPDATE_HYPER_DATA_XML = TEST_ASSET_DIR / "datasource_data_update.xml"
 UPDATE_CONNECTION_XML = TEST_ASSET_DIR / "datasource_connection_update.xml"
 UPDATE_CONNECTIONS_XML = TEST_ASSET_DIR / "datasource_connections_update.xml"
+UPDATE_CONNECTIONS_NO_AUTH_XML = TEST_ASSET_DIR / "datasource_connections_update_no_auth.xml"
 
 
 @pytest.fixture(scope="function")
